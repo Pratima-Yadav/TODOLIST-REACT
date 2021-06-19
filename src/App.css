@@ -1,0 +1,108 @@
+*{
+  margin:0px;
+  padding:0px;
+  background-color: rgb(26, 25, 25);
+}
+
+.header{
+  text-align:center;
+  color:rgb(223, 14, 49);
+  font-family: Comic Sans MS;
+  margin-top: 2%;
+}
+.form{
+  text-align: center;
+  margin-top: 2%;
+}
+ input{
+  width: 350px;
+  height:30px;
+  font-size: 1rem;
+  line-height: 1;
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+  height: 30px;
+}
+.form button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: -2rem;
+  background-color: transparent;
+  border: 1px pink;
+}
+.form button:hover{
+  background-color: pink;
+}
+.list{
+  text-align: center;
+  margin-top: 2%;
+  margin-left: -65px;
+}
+.list input{
+  background-color: rgb(153, 26, 48);
+  color:wheat;
+}
+.list input:hover {
+  color: rgb(153, 26, 48);
+  background-color:#fff;
+}
+.list:hover .fa-trash-alt{
+  color: rgb(214, 47, 61);
+  cursor:pointer;
+}
+.list:hover .fa-check-circle{
+  color: rgb(214, 47, 61);
+}
+.list:hover .fa-edit{
+  color: rgb(214, 47, 61);
+}
+
+ li{
+list-style: none;
+}
+li i{
+  margin-left: -1rem;
+}
+.fa-trash-alt,.fa-check-circle,.fa-edit{
+  margin-left:-40px;
+  color: #fff;
+  background-color: transparent;
+  cursor:pointer;
+}
+
+.fa-plus{
+  background-color: transparent;
+  color:rgb(153, 26, 48);
+
+}
+
+input,
+input:focus,
+input:active,
+input:active:focus {
+  border: none;
+  padding: 0.5rem 1rem;
+  outline: none;
+} 
+input:focus {
+
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+} 
+.remove{
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+  text-align: center;
+ 
+}
+.btn{
+  margin-left: 45%;
+  height: 30px;
+  background-color: #fff;
+  margin-top: 2%;
+  width: 110px;
+}
